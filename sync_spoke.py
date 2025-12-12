@@ -90,6 +90,23 @@ def main():
         sync_repo(repo, base_dir, dry_run=args.dry_run)
         
     print("Synchronization complete.")
+    
+    # Run Benchmark / Reporting
+    if not args.dry_run:
+        print("[SYNC] Running Benchmark and Reporting to Hub...")
+        benchmark_script = os.path.join(os.path.dirname(__file__), "benchmark.py")
+        if os.path.exists(benchmark_script):
+            # Pass the Hub URL via env var if different from default
+            env = os.environ.copy()
+            if args.hub != DEFAULT_HUB_URL:
+                env["AGENTFORGE_HUB_REPORT_URL"] = args.hub.replace("/api/status", "/api/report")
+            
+            try:
+                subprocess.run(["python3", benchmark_script], check=True, env=env)
+            except subprocess.CalledProcessError as e:
+                print(f"[ERROR] Benchmark failed: {e}")
+        else:
+            print("[WARN] benchmark.py not found.")
 
 if __name__ == "__main__":
     main()
