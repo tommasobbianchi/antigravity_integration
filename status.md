@@ -7,11 +7,12 @@
 ## Components
 - **Client Library**: `client.py` (TypeScript equivalent removed)
 - **Plugin CLI**: `plugin.py` (Supports `--init`, `--action`, `--check-connection`)
-- **Handshake**: Implemented via `--init` fetching `/api/status`.
-- **Tests**: Unit tests verified in `tests/`.
+- **VS Code Extension**: `vscode-extension/` (Auto-connect, Auto-sync, Robust Startup).
+- **Sync System**: `sync_spoke.py` (Robust auto-pull from Central Hub).
+- **Benchmark**: `benchmark.py` (Verifies compute + git hash).
 
 ## Recent Changes
-- Implemented `plugin.py` with `argparse`.
-- Added `--init` flag for structural handshake with hub.
+- Implemented **VS Code Extension** with `onStartupFinished` activation.
+- Added **Spoke Synchronization System** (Robust Hub targeting).
+- Added **Benchmark Reporting** to Central Hub.
 - Validated unit tests for `client.py`.
-- Initialized Git repository and pushed to `github.com/tommasobbianchi/antigravity_integration`.

@@ -10,4 +10,5 @@
 - [ ] Mock the `/api/status` endpoint in tests.
 
 ## Deployment
-- [ ] Script to auto-pull updates on spokes?
+- [x] Script to auto-pull updates on spokes? (`sync_spoke.py`)
+- [x] VS Code Extension for auto-alignment? (`vscode-extension`)
