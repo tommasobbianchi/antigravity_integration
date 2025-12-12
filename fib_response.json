@@ -1,0 +1,23 @@
+[
+  {
+    "id": "90659965-5f77-4d86-8545-ec0a33b4ffbd",
+    "timestamp": 1765316018.349105,
+    "sender": "planner",
+    "action": null,
+    "content": "Plan generated and sent to executor:\n Quantum computing is the utilization of quantum-mechanical phenomena, such as superposition and entanglement, to perform computation, processing vast amounts of data simultaneously using quantum bits (qubits), potentially solving complex problems more efficiently than classical computers.\n\nExecution Plan:\n1. Understand classical computing fundamentals, including binary systems, algorithms, and computational complexity.\n2. Study the principles of quantum mechanics, focusing on superposition, entanglement, and qubits.\n3. Learn about quantum gates and circuits, which are the building blocks for quantum algorithms.\n4. Familiarize yourself with key quantum algorithms, such as Shor's algorithm for factoring large numbers, Grover's algorithm for searching unsorted databases, and Quantum Monte Carlo methods for simulating quantum systems.\n5. Learn about current challenges in building practical quantum computers, including decoherence, error correction, and scalability issues.\n6. Keep up-to-date with the latest advancements in quantum computing research and development.",
+    "raw_payload": {
+      "id": "90659965-5f77-4d86-8545-ec0a33b4ffbd",
+      "payload": {
+        "result": "Plan generated and sent to executor:\n Quantum computing is the utilization of quantum-mechanical phenomena, such as superposition and entanglement, to perform computation, processing vast amounts of data simultaneously using quantum bits (qubits), potentially solving complex problems more efficiently than classical computers.\n\nExecution Plan:\n1. Understand classical computing fundamentals, including binary systems, algorithms, and computational complexity.\n2. Study the principles of quantum mechanics, focusing on superposition, entanglement, and qubits.\n3. Learn about quantum gates and circuits, which are the building blocks for quantum algorithms.\n4. Familiarize yourself with key quantum algorithms, such as Shor's algorithm for factoring large numbers, Grover's algorithm for searching unsorted databases, and Quantum Monte Carlo methods for simulating quantum systems.\n5. Learn about current challenges in building practical quantum computers, including decoherence, error correction, and scalability issues.\n6. Keep up-to-date with the latest advancements in quantum computing research and development."
+      },
+      "payload_chunk": {
+        "content": "Plan generated and sent to executor:\n Quantum computing is the utilization of quantum-mechanical phenomena, such as superposition and entanglement, to perform computation, processing vast amounts of data simultaneously using quantum bits (qubits), potentially solving complex problems more efficiently than classical computers.\n\nExecution Plan:\n1. Understand classical computing fundamentals, including binary systems, algorithms, and computational complexity.\n2. Study the principles of quantum mechanics, focusing on superposition, entanglement, and qubits.\n3. Learn about quantum gates and circuits, which are the building blocks for quantum algorithms.\n4. Familiarize yourself with key quantum algorithms, such as Shor's algorithm for factoring large numbers, Grover's algorithm for searching unsorted databases, and Quantum Monte Carlo methods for simulating quantum systems.\n5. Learn about current challenges in building practical quantum computers, including decoherence, error correction, and scalability issues.\n6. Keep up-to-date with the latest advancements in quantum computing research and development.",
+        "is_base64": false
+      },
+      "recipient": "manual",
+      "ref_id": "test1",
+      "sender": "planner",
+      "timestamp": 1765316018.349105
+    }
+  }
+]
